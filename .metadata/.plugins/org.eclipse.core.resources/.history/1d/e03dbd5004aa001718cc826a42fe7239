@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class superchallenge {
+//use a sequence that approximates pi, other than Gregories series.
+	public static void main(String [] args) {
+		
+		
+	}
+}

@@ -1,0 +1,77 @@
+import java.util.Scanner;
+
+public class challengedouble {
+	public static void main(String [] args) {
+		double x = 4;
+		double y = 1;
+		double c = 0;
+		double pi = 0;
+		System.out.println("Give the Gregory series a value \nIf n is entered, the sequences n\nto approximate pi will be listed\n \n \ninput:");
+		System.out.print("");
+		Scanner ns = new Scanner(System.in);
+		double n = ns.nextDouble();
+		//int n = (int)(Math.random() * 100000000)+20;
+		double k = n;
+		int count = 0;
+		 double d = Math.PI;
+		 double z = Math.abs( (d-n));//absolute value of difference of input and PI
+		 double l = Math.abs((d+n));
+		 int term = 0;
+		 int g = 0;
+		 
+		 
+			 
+			 if (n > (4 - d)) {
+				 count = 1;
+			 }
+			 
+			 else if( n < (4-d)) {
+			 while (g==0) {
+			
+			 
+				 
+				 
+				 if (k - n == 0) {
+						c = y + 2*(k - n); //makes variable c into value of 3 + 2 times the difference of k and n.
+						pi = pi +((x)/c);
+						count++;
+						
+						
+					
+				 }
+					else if((count) % 2 != 0) {
+						c = y + 2*(k - n); //makes variable c into value of 3 + 2 times the difference of k and n.
+						pi = pi - ((x)/c);
+						count++;
+						
+						
+						
+					}
+					else if((count) % 2 == 0) {
+						c = y + 2*(k - n); //makes variable c into value of 3 + 2 times the difference of k and n.
+						pi = pi + ((x)/c);
+						count++;
+						
+					}
+						
+					else if (n > (4 - d)) {
+					 g--;
+				 
+					
+					
+				
+			 }
+		 }
+		//while ( pi != z && pi != l) { 
+//	    while ( n > 0 ){
+//			
+			
+		
+		}
+		//System.out.println("The sum of the first " + k +" terms of the Gregory series is \n" + pi);
+	    System.out.println(count);
+	
+	}
+}
+
+

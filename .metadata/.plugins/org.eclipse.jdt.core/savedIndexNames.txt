@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+/Users/Afnaan/Desktop/Eclipse programs/.metadata/.plugins/org.eclipse.jdt.core
+1887433770.index
+2112774805.index
+4231975993.index
+2089348824.index

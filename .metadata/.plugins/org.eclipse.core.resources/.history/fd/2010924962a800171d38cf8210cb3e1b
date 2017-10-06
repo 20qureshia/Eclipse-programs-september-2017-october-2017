@@ -1,0 +1,29 @@
+
+public class greggySeries {
+	public static void main(String [] args) {
+		int x = 4;
+		int y = 1;
+		int c = 0;
+		double pi = 0;
+		int n = (int)(Math.random() *20)+10;
+		int k = n;
+		
+		while (n > 0) {
+			
+			if ((n) % 2 != 0) {
+				c = y + 2*(k - n); //makes variable c into value of 3 + 2 times the difference of k and n.
+				pi = pi +((x^(c))/c);
+				n--;
+			}
+			else if((n) % 2 == 0) {
+				c = y + 2*(k - n); //makes variable c into value of 3 + 2 times the difference of k and n.
+				pi = pi -((x^(c))/c);
+				n--;
+			}
+			
+		}
+		System.out.println(pi);
+		}
+		
+	}
+

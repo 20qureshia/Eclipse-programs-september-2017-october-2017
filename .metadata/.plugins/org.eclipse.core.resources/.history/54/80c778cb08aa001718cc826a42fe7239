@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class piover2 {
+	public static void main(String [] args) {
+		double pi = 0;
+		double x = 2;
+		double y =2;
+		Scanner ns = new Scanner(System.in);
+		int n = ns.nextInt();
+		int k = n;
+		
+		while (n>0) {
+			pi = Math.pow(2, 0.5);
+			n--;
+		}
+		System.out.println(pi);
+	}
+}

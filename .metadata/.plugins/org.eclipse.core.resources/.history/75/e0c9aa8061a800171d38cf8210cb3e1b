@@ -1,0 +1,9 @@
+
+public class greggySeries {
+	public static void main(String [] args) {
+		double pi = 0;
+		int n = (int)(Math.random() *100)+10;
+		int k = n;
+		
+	}
+}

@@ -1,0 +1,13 @@
+
+public class greggySeries {
+	public static void main(String [] args) {
+		int x = 4;
+		int y = 3;
+		int c = 0;
+		double pi = 0;
+		int n = (int)(Math.random() *100)+10;
+		int k = n;
+		
+		
+	}
+}

@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class piover2 {
+	public static void main(String [] args) {
+		double pi = 0;
+		double x = 2;
+		double y =2;
+		Scanner ns = new Scanner(System.in);
+		int n = ns.nextInt();
+		
+	}
+}
